@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Daily Dozen</title>
+	<link rel="stylesheet" type="text/css" href="dozen.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
+</head>
+<body>
+
+<div id="container">
+	<h1>Daily dozen</h1>
+	<h2>Servings <span id="all">0</span> out 24</h2>
+
+	<ul>
+		<li id="beans">Beans portions <span id="beansScore">0</span> of 3 
+		<button id="beansBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+		</li>
+		
+		<div class="popUp" id="beansPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+		<li>1/4 glass of hummus</li>
+		<li>1/2 glass coocked beans, lentil, tofu or tempeh</li>
+		<li>1 glass of bean sprouts</li>
+		</ul>
+		</div> 
+		
+		<li id="berries">Berries portions <span id="berriesScore">0</span> of 1 <button id="berriesBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button></li>
+		
+		<div class="popUp" id="berriesPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+		<li>1/2 glass fresh or frozen</li>
+		<li>1/4 glass dried fruits</li>
+		</ul>
+		</div> 
+		
+		<li id="other">Other Fruits portions <span id="fruitsScore">0</span> of 3 <button id="fruitsBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button></li>
+		
+		<div class="popUp" id="otherPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+		<li>1 medium size fruit</li>
+		<li>1 glass chopped fruits</li>
+		<li>1/4 glass dried fruits</li>
+		</ul>
+		</div> 
+		
+		
+		<li id="cruciferos">Cruciferos Vegetables portions <span id="cruciferosScore">0</span> of 1 <button id="cruciferosBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button> </li>
+		
+		<div class="popUp" id="cruciferosPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+		<li>1/4 glass broccoli or brussel sprouts</li>
+		<li>1/2 glass chopped cabbage, culiflower, kale or arugula</li>
+		<li>1 tablespoon horseradish</li>
+		</ul>
+		</div> 
+		
+		<li id="greens">Greens portions <span id="greensScore">0</span> of 2 <button id="greensBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button> </li>
+		
+		<div class="popUp" id="greensPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+		<li>1 glass raw</li>
+		<li>1/2 glass coocked</li>
+		</ul>
+		</div>
+		
+		<li id="otherVeg">Other Vegetables portions <span id="veggiesScore">0</span> of 2 <button id="veggiesBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button> </li>
+		
+		<div class="popUp" id="otherVegPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+		<li>1 glass raw greens</li>
+		<li>1/2 glass raw or coocked</li>
+		<li>1/2 glass veggie juice</li>
+		<li>1/3 glass dried mushrooms</li>
+		</ul>
+		</div>
+		
+		<li id="flax">Flaxseeds portions <span id="flaxScore">0</span> of 1 <button id="flaxBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button> </li>
+		
+		<div class="popUp" id="flaxPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+		<li>1 tablespoon</li>
+		</ul>
+		</div>
+		
+		<li id="nuts">Nuts portions <span id="nutsScore">0</span> of 1 <button id="nutsBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button> </li>
+		
+		<div class="popUp" id="nutsPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+		<li>1/4 glass nuts or seeds</li>
+		<li>2 tablespoons nutbutter</li>
+		</ul>
+		</div>
+		
+		<li id="spices">Spices portions <span id="spicesScore">0</span> of 1 <button id="spicesBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button> </li>
+		
+		<div class="popUp" id="spicesPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+		<li>1/4 teaspoon (salt is not included)</li>
+		</ul>
+		</div>
+		
+		<li id="grains">Whole Grains portions <span id="grainsScore">0</span> of 3 <button id="grainsBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button> </li>
+		
+		<div class="popUp" id="grainsPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+		<li>1 glass coocked oats, pasta or other grains</li>
+		<li>1/2 glass raw oats, pasta or other grains</li>
+		<li>1 slice of bread</li>
+		</ul>
+		</div>
+		
+		<li id="bevereges">Bevereges  portions <span id="bevScore">0</span> of 5 <button id="bevBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button> </li>
+		
+		<div class="popUp" id="beveregesPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+            <li>1 glass</li>
+		</ul>
+		</div>
+		
+		<li id="sport">Exercies portions <span id="sportScore">0</span> of 1 <button id="sportBtn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button> </li>
+		
+		<div class="popUp" id="sportPopUp">
+		<h4>Portion size:</h4>
+		<ul>
+            <li>90 minutes moderate exercises</li>
+            <li>40 minutes intensive exercisesy</li>
+		</ul>
+		</div>
+	</ul>
+
+</div>
+</body>
+<script type="text/javascript" src="dozen.js"></script>
+<script type="text/javascript" src="popUp.js"></script>
+</html>
